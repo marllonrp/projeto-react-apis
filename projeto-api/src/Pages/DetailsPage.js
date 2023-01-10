@@ -53,7 +53,7 @@ export const Details = () => {
       return "";
     } else {
       const found = pokeTypes.find((color) => color.type === icon);
-      return found.color;
+      return found.backgroundColor;
     }
   };
 
